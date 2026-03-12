@@ -1,4 +1,4 @@
-# 🚀 Nurox.ai - AI SaaS Platform
+#  Nurox.ai - AI SaaS Platform
 
 Nurox.ai is a comprehensive, full-stack AI-powered SaaS platform that brings multiple AI functionalities under one roof. Designed with a modern, sleek user interface and robust backend architecture, Nurox allows users to generate text, images, modify images, and even review resumes effortlessly. 
 
@@ -6,20 +6,20 @@ The application features a freemium model with secure authentication, seamless p
 
 ---
 
-## 🔥 Features
+##  Features
 
-- ✍️ **AI Article Writer**: Generate detailed and engaging articles with AI.
-- 📝 **AI Blog Title Generator**: Instantly get catchy blog titles based on your niche.
-- 🎨 **Text-to-Image Generation**: Create stunning images from text prompts using Clipdrop APIs.
-- ✂️ **Image Background Removal**: Automatically remove backgrounds from images with high precision (powered by Cloudinary).
-- 🪄 **Object Removal from Images**: Effortlessly erase unwanted objects from your photos.
-- 📄 **Smart Resume Reviewer**: Upload your PDF resume and receive intelligent, AI-driven feedback to improve your profile.
-- 🔐 **Authentication & User Management**: Secure login and user management via **Clerk**.
-- 💎 **Subscription System**: Built-in tiered free & premium plan validation using an SQL database.
+-  **AI Article Writer**: Generate detailed and engaging articles with AI.
+-  **AI Blog Title Generator**: Instantly get catchy blog titles based on your niche.
+-  **Text-to-Image Generation**: Create stunning images from text prompts using Clipdrop APIs.
+-  **Image Background Removal**: Automatically remove backgrounds from images with high precision (powered by Cloudinary).
+-  **Object Removal from Images**: Effortlessly erase unwanted objects from your photos.
+-  **Smart Resume Reviewer**: Upload your PDF resume and receive intelligent, AI-driven feedback to improve your profile.
+-  **Authentication & User Management**: Secure login and user management via **Clerk**.
+-  **Subscription System**: Built-in tiered free & premium plan validation using an SQL database.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### **Frontend (Client)**
 - **Framework**: React 19 + Vite
@@ -40,7 +40,7 @@ The application features a freemium model with secure authentication, seamless p
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Nurox.ai/
@@ -63,7 +63,7 @@ Nurox.ai/
 
 ---
 
-## ⚙️ Local Development Setup
+##  Local Development Setup
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) installed
@@ -121,8 +121,8 @@ Head over to `http://localhost:5173` in your browser.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+##  License
 This project is licensed under the ISC License.
