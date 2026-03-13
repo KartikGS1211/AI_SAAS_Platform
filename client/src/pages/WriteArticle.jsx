@@ -9,10 +9,10 @@ axios.defaults.baseURL = import.meta.env.VITE_BASE_URL;
 
 const WriteArticle = () => {
   const articleLength = [
-    { label: 'Short (200-400 words)', text: 'short' },
-    { label: 'Medium (400-800 words)', text: 'medium' },
-    { label: 'Long (800-1200 words)', text: 'long' },
-    { label: 'Very Long (1200+ words)', text: 'very-long' },
+    { label: 'Short (200-400 words)', text: 'short', maxTokens: 400 },
+    { label: 'Medium (400-800 words)', text: 'medium', maxTokens: 800 },
+    { label: 'Long (800-1200 words)', text: 'long', maxTokens: 1200 },
+    { label: 'Very Long (1200+ words)', text: 'very-long', maxTokens: 2000 },
   ]
 
   const [selectedLength, setSelectedLength] = useState(articleLength[0])
@@ -29,7 +29,7 @@ const WriteArticle = () => {
       setLoading(true)
       const prompt = `Write an article bout ${input} in ${selectedLength.text}`
 
-      const {data} = await axios.post('/api/ai/generate-article', {prompt, length:selectedLength.length},
+      const {data} = await axios.post('/api/ai/generate-article', {prompt, length:selectedLength.maxTokens},
         {
           headers: {Authorization: `Bearer ${await getToken()}`}
         })
