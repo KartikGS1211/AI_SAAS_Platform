@@ -34,7 +34,7 @@ The application features a freemium model with secure authentication, seamless p
 - **Runtime**: Node.js + Express.js
 - **Database**: Neon Serverless PostgreSQL (`@neondatabase/serverless`)
 - **Authentication**: Clerk Express (`@clerk/express`)
-- **AI Models**: Gemini 2.0 Flash (via OpenAI SDK config) & Clipdrop API
+- **AI Models**: Llama 3 (via Groq SDK config) & Clipdrop API
 - **Image Processing/Storage**: Cloudinary & Multer
 - **File Parsing**: PDF-Parse (for Resume Reviews)
 
@@ -67,7 +67,7 @@ Nurox.ai/
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) installed
-- Accounts setup for: [Clerk](https://clerk.com/), [Neon Database](https://neon.tech/), [Cloudinary](https://cloudinary.com/), [Gemini / Google AI](https://aistudio.google.com/), and [Clipdrop](https://clipdrop.co/)
+- Accounts setup for: [Clerk](https://clerk.com/), [Neon Database](https://neon.tech/), [Cloudinary](https://cloudinary.com/), [Groq](https://console.groq.com/), and [Clipdrop](https://clipdrop.co/)
 
 ### 1. Clone the repository
 ```bash
@@ -85,7 +85,7 @@ Create a `.env` file in the `server` directory and add your keys:
 ```env
 PORT=5000
 DATABASE_URL=your_neon_postgres_database_url
-GEMINI_API_KEY=your_gemini_api_key
+GROQ_API_KEY=your_groq_api_key
 CLIPDROP_API_KEY=your_clipdrop_api_key
 CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
